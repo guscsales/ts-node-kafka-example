@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"outDir": "dist",
+		"skipLibCheck": true,
+		"removeComments": true,
+		"resolveJsonModule": true,
+		"baseUrl": "./",
+		"plugins": [{ "transform": "ts-transformer-imports" }],
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true
+	},
+	"include": ["src/**/*.ts", "package.json", "package-lock.json"],
+	"exclude": [
+		"node_modules",
+		"node-release-tasks",
+		"conf",
+		"**/*.spec.ts",
+		"**/__tests__"
+	]
+}

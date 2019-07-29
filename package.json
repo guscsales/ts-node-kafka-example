@@ -1,0 +1,38 @@
+{
+	"name": "ts-node-kafka-example",
+	"version": "0.0.1",
+	"description": "Exemplo da palestra Typescript, Node e Kafka: combinação escalável",
+	"scripts": {
+		"dev": "ts-node src/consumer.ts",
+		"producer": "ts-node src/producer.ts"
+	},
+	"keywords": [],
+	"author": "Gustavo Sales",
+	"license": "ISC",
+	"dependencies": {
+		"@avro/types": "^1.0.2",
+		"@types/dotenv": "^6.1.1",
+		"@types/express": "^4.16.1",
+		"@types/faker": "^4.1.5",
+		"@types/kafka-node": "^2.0.8",
+		"@types/newrelic": "^4.11.0",
+		"@types/uuid": "^3.4.4",
+		"avsc": "^5.4.10",
+		"dotenv": "^8.0.0",
+		"faker": "^4.1.0",
+		"kafka-node": "^4.1.3",
+		"uuid": "^3.3.2"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.0",
+		"prettier": "^1.17.0",
+		"ts-jest": "^24.0.2",
+		"ts-node": "^8.1.0",
+		"ts-transformer-imports": "^0.4.3",
+		"tsconfig-paths": "^3.8.0",
+		"tslint": "^5.16.0",
+		"tslint-config-prettier": "^1.18.0",
+		"ttypescript": "^1.5.6",
+		"typescript": "^3.4.5"
+	}
+}
