@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"description": "Exemplo da palestra Typescript, Node e Kafka: combinação escalável",
 	"scripts": {
-		"dev": "ts-node src/consumer.ts",
+		"consumer": "ts-node src/consumer.ts",
 		"producer": "ts-node src/producer.ts"
 	},
 	"keywords": [],
