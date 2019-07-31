@@ -19,3 +19,7 @@ Caso queria você pode rodar o `npm ci` para fazer a leitura direto do `package-
 ```bash
 npm run dev
 ```
+
+## Slides
+
+Os slides da palestra estão nesse link: https://slides.com/gsaless/node-typescript-kafka
